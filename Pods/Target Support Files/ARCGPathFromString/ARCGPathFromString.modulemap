@@ -1,0 +1,6 @@
+framework module ARCGPathFromString {
+  umbrella header "ARCGPathFromString-umbrella.h"
+
+  export *
+  module * { export * }
+}

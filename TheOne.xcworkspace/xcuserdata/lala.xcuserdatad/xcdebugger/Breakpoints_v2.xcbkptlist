@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   type = "0"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Pods/Moya-ObjectMapper/Source/RxSwift/ObservableType+ObjectMapper.swift"
+            timestampString = "538024976.6602449"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "20"
+            endingLineNumber = "20"
+            landmarkName = "mapObject(_:context:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(extension in Moya_ObjectMapper):RxSwift.ObservableType&lt;A where A: RxSwift.ObservableType, A.E == Moya.Response&gt;.mapObject&lt;A where A1: ObjectMapper.BaseMappable&gt;(A1.Type, context: Swift.Optional&lt;ObjectMapper.MapContext&gt;) -&gt; RxSwift.Observable&lt;A1&gt;"
+                  moduleName = "Moya_ObjectMapper"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/lala/Desktop/SourceTreeProduct/TheOne/TheOne/Pods/Moya-ObjectMapper/Source/RxSwift/ObservableType+ObjectMapper.swift"
+                  timestampString = "541160687.315971"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "20"
+                  endingLineNumber = "20"
+                  offsetFromSymbolStart = "63">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Moya.Response) throws -&gt; RxSwift.Observable&lt;A1&gt; in (extension in Moya_ObjectMapper):RxSwift.ObservableType&lt;A where A: RxSwift.ObservableType, A.E == Moya.Response&gt;.mapObject&lt;A where A1: ObjectMapper.BaseMappable&gt;(A1.Type, context: Swift.Optional&lt;ObjectMapper.MapContext&gt;) -&gt; RxSwift.Observable&lt;A1&gt;"
+                  moduleName = "Moya_ObjectMapper"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/lala/Desktop/SourceTreeProduct/TheOne/TheOne/Pods/Moya-ObjectMapper/Source/RxSwift/ObservableType+ObjectMapper.swift"
+                  timestampString = "541160687.320329"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "19"
+                  endingLineNumber = "19"
+                  offsetFromSymbolStart = "56">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

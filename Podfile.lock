@@ -1,0 +1,239 @@
+PODS:
+  - Alamofire (4.5.1)
+  - ARCGPathFromString (1.0.0)
+  - AsyncDisplayKit (2.2.1):
+    - AsyncDisplayKit/PINRemoteImage (= 2.2.1)
+  - AsyncDisplayKit/Core (2.2.1)
+  - AsyncDisplayKit/PINRemoteImage (2.2.1):
+    - AsyncDisplayKit/Core
+    - PINRemoteImage/iOS (= 3.0.0-beta.8)
+    - PINRemoteImage/PINCache
+  - ChameleonFramework/Default (2.1.0)
+  - ChameleonFramework/Swift (2.1.0):
+    - ChameleonFramework/Default
+  - Charts (3.0.4):
+    - Charts/Core (= 3.0.4)
+  - Charts/Core (3.0.4)
+  - DACircularProgress (2.3.1)
+  - Differentiator (3.0.1)
+  - DZNEmptyDataSet (1.8.1)
+  - EaseUI (3.3.5):
+    - Hyphenate (~> 3.3.4)
+    - MJRefresh (~> 3.1.0)
+    - MWPhotoBrowser (~> 2.1.1)
+  - FileKit (5.0.0)
+  - FMDB (2.7.2):
+    - FMDB/standard (= 2.7.2)
+  - FMDB/standard (2.7.2)
+  - FontAwesomeKit (2.2.1):
+    - FontAwesomeKit/Core (= 2.2.1)
+    - FontAwesomeKit/FontAwesome (= 2.2.1)
+    - FontAwesomeKit/FoundationIcons (= 2.2.1)
+    - FontAwesomeKit/IonIcons (= 2.2.1)
+    - FontAwesomeKit/Material (= 2.2.1)
+    - FontAwesomeKit/Octicons (= 2.2.1)
+    - FontAwesomeKit/Zocial (= 2.2.1)
+  - FontAwesomeKit/Core (2.2.1)
+  - FontAwesomeKit/FontAwesome (2.2.1):
+    - FontAwesomeKit/Core
+  - FontAwesomeKit/FoundationIcons (2.2.1):
+    - FontAwesomeKit/Core
+  - FontAwesomeKit/IonIcons (2.2.1):
+    - FontAwesomeKit/Core
+  - FontAwesomeKit/Material (2.2.1):
+    - FontAwesomeKit/Core
+  - FontAwesomeKit/Octicons (2.2.1):
+    - FontAwesomeKit/Core
+  - FontAwesomeKit/Zocial (2.2.1):
+    - FontAwesomeKit/Core
+  - FreeStreamer (3.8.0):
+    - Reachability (~> 3.0)
+  - FSCalendar (2.7.9)
+  - GCDWebServer/Core (3.4.2)
+  - GCDWebServer/WebDAV (3.4.2):
+    - GCDWebServer/Core
+  - GCDWebServer/WebUploader (3.4.2):
+    - GCDWebServer/Core
+  - Hero (1.0.0)
+  - Hyphenate (3.3.5)
+  - IQKeyboardManagerSwift (5.0.4)
+  - LTMorphingLabel (0.5.5)
+  - MBProgressHUD (0.9.2)
+  - MJRefresh (3.1.15)
+  - Moya (10.0.0):
+    - Moya/Core (= 10.0.0)
+  - Moya-ObjectMapper/Core (2.5):
+    - Moya (~> 10.0.0)
+    - ObjectMapper (~> 3.0.0)
+  - Moya-ObjectMapper/RxSwift (2.5):
+    - Moya-ObjectMapper/Core
+    - Moya/RxSwift
+    - RxSwift (~> 4.0.0)
+  - Moya/Core (10.0.0):
+    - Alamofire (~> 4.1)
+    - Result (~> 3.0)
+  - Moya/RxSwift (10.0.0):
+    - Moya/Core
+    - RxSwift (~> 4.0)
+  - MWPhotoBrowser (2.1.2):
+    - DACircularProgress (~> 2.3)
+    - MBProgressHUD (~> 0.9)
+    - SDWebImage (!= 3.7.2, ~> 3.7)
+  - NSObject+Rx (4.2.0):
+    - RxSwift (~> 4.0)
+  - ObjcExceptionBridging (1.0.1):
+    - ObjcExceptionBridging/ObjcExceptionBridging (= 1.0.1)
+  - ObjcExceptionBridging/ObjcExceptionBridging (1.0.1)
+  - ObjectMapper (3.0.0)
+  - PINCache (3.0.1-beta.4):
+    - PINCache/Arc-exception-safe (= 3.0.1-beta.4)
+    - PINCache/Core (= 3.0.1-beta.4)
+  - PINCache/Arc-exception-safe (3.0.1-beta.4):
+    - PINCache/Core
+  - PINCache/Core (3.0.1-beta.4):
+    - PINOperation (= 1.0.3)
+  - PINOperation (1.0.3)
+  - PINRemoteImage/Core (3.0.0-beta.8)
+  - PINRemoteImage/iOS (3.0.0-beta.8):
+    - PINRemoteImage/Core
+  - PINRemoteImage/PINCache (3.0.0-beta.8):
+    - PINCache (= 3.0.1-beta.4)
+    - PINRemoteImage/Core
+  - pop (1.0.10)
+  - Reachability (3.2)
+  - Result (3.2.4)
+  - Reusable (4.0.0):
+    - Reusable/Storyboard (= 4.0.0)
+    - Reusable/View (= 4.0.0)
+  - Reusable/Storyboard (4.0.0)
+  - Reusable/View (4.0.0)
+  - RxCocoa (4.0.0):
+    - RxSwift (~> 4.0)
+  - RxDataSources (3.0.1):
+    - Differentiator (~> 3.0)
+    - RxCocoa (~> 4.0)
+    - RxSwift (~> 4.0)
+  - RxSwift (4.0.0)
+  - SDWebImage (3.8.2):
+    - SDWebImage/Core (= 3.8.2)
+  - SDWebImage/Core (3.8.2)
+  - SnapKit (4.0.0)
+  - SwiftyJSON (3.1.4)
+  - TextFieldEffects (1.4.0)
+  - WCLShineButton (1.0.7)
+  - XCGLogger (6.0.1):
+    - XCGLogger/Core (= 6.0.1)
+  - XCGLogger/Core (6.0.1):
+    - ObjcExceptionBridging
+  - ZLPhotoBrowser (2.6.4):
+    - SDWebImage
+
+DEPENDENCIES:
+  - ARCGPathFromString
+  - AsyncDisplayKit
+  - ChameleonFramework/Swift (from `https://github.com/ViccAlexander/Chameleon.git`)
+  - Charts
+  - DZNEmptyDataSet
+  - EaseUI (from `https://github.com/easemob/easeui-ios-hyphenate-cocoapods.git`, tag `3.3.5`)
+  - FileKit
+  - FMDB
+  - FontAwesomeKit
+  - FreeStreamer
+  - FSCalendar
+  - GCDWebServer/WebDAV
+  - GCDWebServer/WebUploader
+  - Hero
+  - Hyphenate
+  - IQKeyboardManagerSwift
+  - LTMorphingLabel
+  - Moya-ObjectMapper/RxSwift (from `https://github.com/ivanbruel/Moya-ObjectMapper`, tag `2.5`)
+  - Moya/RxSwift
+  - NSObject+Rx
+  - ObjectMapper
+  - pop
+  - Reusable
+  - RxCocoa
+  - RxDataSources
+  - SnapKit
+  - SwiftyJSON
+  - TextFieldEffects
+  - WCLShineButton
+  - XCGLogger
+  - ZLPhotoBrowser (from `https://github.com/longitachi/ZLPhotoBrowser`, tag `2.6.4`)
+
+EXTERNAL SOURCES:
+  ChameleonFramework:
+    :git: https://github.com/ViccAlexander/Chameleon.git
+  EaseUI:
+    :git: https://github.com/easemob/easeui-ios-hyphenate-cocoapods.git
+    :tag: 3.3.5
+  Moya-ObjectMapper:
+    :git: https://github.com/ivanbruel/Moya-ObjectMapper
+    :tag: 2.5
+  ZLPhotoBrowser:
+    :git: https://github.com/longitachi/ZLPhotoBrowser
+    :tag: 2.6.4
+
+CHECKOUT OPTIONS:
+  ChameleonFramework:
+    :commit: 6dd284bde21ea2e7f9fd89bc36f40df16e16369d
+    :git: https://github.com/ViccAlexander/Chameleon.git
+  EaseUI:
+    :git: https://github.com/easemob/easeui-ios-hyphenate-cocoapods.git
+    :tag: 3.3.5
+  Moya-ObjectMapper:
+    :git: https://github.com/ivanbruel/Moya-ObjectMapper
+    :tag: 2.5
+  ZLPhotoBrowser:
+    :git: https://github.com/longitachi/ZLPhotoBrowser
+    :tag: 2.6.4
+
+SPEC CHECKSUMS:
+  Alamofire: 2d95912bf4c34f164fdfc335872e8c312acaea4a
+  ARCGPathFromString: a003edc0ea437169ac276234630fc1dec3047e30
+  AsyncDisplayKit: 2234dd8d8770a5ed72936b3f8394bd5a807765f6
+  ChameleonFramework: d21a3cc247abfe5e37609a283a8238b03575cf64
+  Charts: 0705898046257443f0afbbc3179f4b67507b6e48
+  DACircularProgress: 4dd437c0fc3da5161cb289e07ac449493d41db71
+  Differentiator: ffe513ce1ea4e7198b89fac94d6e281c673055a9
+  DZNEmptyDataSet: 9525833b9e68ac21c30253e1d3d7076cc828eaa7
+  EaseUI: ff7a1f8362c1a5d91e59478112de41b1a38f0192
+  FileKit: 857f5f9d2583044c1354e7564b110d80f31405e8
+  FMDB: 6198a90e7b6900cfc046e6bc0ef6ebb7be9236aa
+  FontAwesomeKit: 3614979b3dbb0ec3f7fac1bd760b91f66c31db67
+  FreeStreamer: e7e92f8dcb3f459f02fcd01dd8126f6996da17d5
+  FSCalendar: a04b09f16f811bc92e82f3cf852a15225233b9d5
+  GCDWebServer: 8d67ee9f634b4bb91eb4b8aee440318a5fc6debd
+  Hero: 18e7cf8af41c04c8532d1430ac174004a9365c87
+  Hyphenate: 4ae44d5a328a84e2af27faea89a713304f7bb8b6
+  IQKeyboardManagerSwift: a0592bb636b10a9a1cf75d2b2c61144226226c84
+  LTMorphingLabel: 86464e41c3394dbf1ad098442ed4dcf8891ba975
+  MBProgressHUD: 1569cf7ace17a8bac47aabfbb8580a49690386d1
+  MJRefresh: 9af70f5f9327a2cf87f0fb5929f35fcc2fa638ea
+  Moya: adb58b0f4e58430db43cc6e2f6ebab1836501186
+  Moya-ObjectMapper: cdc0e4a6d245cfe5a4c81708240a93fc3cf8a5f9
+  MWPhotoBrowser: 5836d7aa041dc05a13de380c246826578adc5ea5
+  NSObject+Rx: cbbc05e3cb3ad446cdbced3e00e39c9efaf02925
+  ObjcExceptionBridging: c30e00eb3700467e695faeea30e26e18bd445001
+  ObjectMapper: 92230db59bf8f341a5c3a3cf0b9fbdde3cf0d87f
+  PINCache: a89c8f609232afac77128557bd12c861844423d7
+  PINOperation: ac23db44796d4a564ecf9b5ea7163510f579b71d
+  PINRemoteImage: c4f9f16932840c597f32e69dd288e10e111a1929
+  pop: 82ca6b068ce9278fd350fd9dd09482a0ce9492e6
+  Reachability: 33e18b67625424e47b6cde6d202dce689ad7af96
+  Result: d2d07204ce72856f1fd9130bbe42c35a7b0fea10
+  Reusable: 98e5fff1e0e2e00872199699b276dde08ee56c07
+  RxCocoa: d62846ca96495d862fa4c59ea7d87e5031d7340e
+  RxDataSources: 098b7e62b6316313b14d6bf594e3f4f4f62a238a
+  RxSwift: fd680d75283beb5e2559486f3c0ff852f0d35334
+  SDWebImage: 098e97e6176540799c27e804c96653ee0833d13c
+  SnapKit: a42d492c16e80209130a3379f73596c3454b7694
+  SwiftyJSON: c2842d878f95482ffceec5709abc3d05680c0220
+  TextFieldEffects: 4ee41b5216e674d55fb6ac25107bf1af7629176f
+  WCLShineButton: d8b979b6f6f9f6709f9e241e6e1a4712a1a9b36b
+  XCGLogger: b4ca980580108cfeaf221afe158f5d89c1be22e0
+  ZLPhotoBrowser: 2125e7b7ea328c959a5ead1204c83b3bb0f0bf5a
+
+PODFILE CHECKSUM: 0f6dc7ae99c49ca85f4a2e77b91bdb223559d7fa
+
+COCOAPODS: 1.3.1

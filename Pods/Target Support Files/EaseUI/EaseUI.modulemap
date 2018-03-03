@@ -1,0 +1,6 @@
+framework module EaseUI {
+  umbrella header "EaseUI-umbrella.h"
+
+  export *
+  module * { export * }
+}

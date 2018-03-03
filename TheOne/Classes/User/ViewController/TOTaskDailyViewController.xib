@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13527"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="TOTaskDailyViewController" customModule="TheOne" customModuleProvider="target">
+            <connections>
+                <outlet property="textView" destination="4vx-pb-rU0" id="g5N-Cn-Jqz"/>
+                <outlet property="textViewTop" destination="NPt-25-YmG" id="Onv-pv-Ymc"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="4vx-pb-rU0">
+                    <rect key="frame" x="0.0" y="0.0" width="375" height="613"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                </textView>
+                <button opaque="NO" tag="100" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cX8-9E-9Mp">
+                    <rect key="frame" x="0.0" y="623" width="187.5" height="44"/>
+                    <state key="normal" title="取消"/>
+                    <connections>
+                        <action selector="buttonAct:" destination="-1" eventType="touchUpInside" id="ITZ-7a-kjI"/>
+                    </connections>
+                </button>
+                <button opaque="NO" tag="200" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Lz9-cI-IUE">
+                    <rect key="frame" x="187.5" y="623" width="187.5" height="44"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="44" id="xNf-W1-vbA"/>
+                    </constraints>
+                    <state key="normal" title="确认"/>
+                    <connections>
+                        <action selector="buttonAct:" destination="-1" eventType="touchUpInside" id="881-17-FGc"/>
+                    </connections>
+                </button>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="4vx-pb-rU0" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="NPt-25-YmG"/>
+                <constraint firstItem="Lz9-cI-IUE" firstAttribute="top" secondItem="cX8-9E-9Mp" secondAttribute="top" id="O1Q-va-yx5"/>
+                <constraint firstItem="Lz9-cI-IUE" firstAttribute="height" secondItem="cX8-9E-9Mp" secondAttribute="height" id="TeU-o5-EYo"/>
+                <constraint firstItem="cX8-9E-9Mp" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" id="UOF-91-bwQ"/>
+                <constraint firstItem="cX8-9E-9Mp" firstAttribute="top" secondItem="4vx-pb-rU0" secondAttribute="bottom" constant="10" id="ZtN-ja-hL3"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="bottom" secondItem="cX8-9E-9Mp" secondAttribute="bottom" id="bZX-QA-ire"/>
+                <constraint firstAttribute="trailing" secondItem="4vx-pb-rU0" secondAttribute="trailing" id="dRs-to-J5C"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="Lz9-cI-IUE" secondAttribute="trailing" id="hum-t3-Pj5"/>
+                <constraint firstItem="4vx-pb-rU0" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" id="kzJ-23-Gml"/>
+                <constraint firstItem="Lz9-cI-IUE" firstAttribute="width" secondItem="cX8-9E-9Mp" secondAttribute="width" id="nn2-hT-yk9"/>
+                <constraint firstItem="Lz9-cI-IUE" firstAttribute="leading" secondItem="cX8-9E-9Mp" secondAttribute="trailing" id="xAe-V4-unK"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
+            <point key="canvasLocation" x="33.5" y="53.5"/>
+        </view>
+    </objects>
+</document>
