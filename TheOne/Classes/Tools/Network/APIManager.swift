@@ -46,7 +46,7 @@ extension APIManager:TargetType {
     }
     
     var baseURL: URL {
-        return URL(string: "http://127.0.0.1:8888")!
+        return URL(string: "http://192.168.1.116:8888")!
 //        return URL(string: "http://perfectservice.free.ngrok.cc")!
     }
     

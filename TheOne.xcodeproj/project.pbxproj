@@ -155,7 +155,6 @@
 		27BBAE55201ACA450046F6F3 /* ProjectDetailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27BBAE54201ACA450046F6F3 /* ProjectDetailViewModel.swift */; };
 		27BF74581FB97CE7002E75FD /* BindingExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27BF74571FB97CE7002E75FD /* BindingExtensions.swift */; };
 		27BF745C1FB97CF2002E75FD /* UIBundle+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27BF745A1FB97CF1002E75FD /* UIBundle+Extensions.swift */; };
-		27BF745E1FB98419002E75FD /* UIBarButtonItem+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27BF745D1FB98419002E75FD /* UIBarButtonItem+Extensions.swift */; };
 		27BF74671FB98EF5002E75FD /* TOProjectListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27BF74661FB98EF5002E75FD /* TOProjectListViewController.swift */; };
 		27CD382E1FE0B238005116A1 /* TODetailNormalCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27CD382C1FE0B238005116A1 /* TODetailNormalCell.swift */; };
 		27CD382F1FE0B238005116A1 /* TODetailNormalCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 27CD382D1FE0B238005116A1 /* TODetailNormalCell.xib */; };
@@ -188,6 +187,7 @@
 		27FE62221FCE8FB200F8D8A1 /* DismissingAnimator.m in Sources */ = {isa = PBXBuildFile; fileRef = 27FE62201FCE8FB100F8D8A1 /* DismissingAnimator.m */; };
 		27FE62251FCE8FC200F8D8A1 /* PresentingAnimator.m in Sources */ = {isa = PBXBuildFile; fileRef = 27FE62231FCE8FC100F8D8A1 /* PresentingAnimator.m */; };
 		27FE62281FCE908E00F8D8A1 /* UIColor+CustomColors.m in Sources */ = {isa = PBXBuildFile; fileRef = 27FE62271FCE908D00F8D8A1 /* UIColor+CustomColors.m */; };
+		D64B77B7204BA8F600F89750 /* UIBarButtonItem+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = D64B77B6204BA8F600F89750 /* UIBarButtonItem+Extensions.swift */; };
 		E9C3D11E8D1CDD0E44C62CC1 /* Pods_TheOne.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D786D9748D64340D863CA14 /* Pods_TheOne.framework */; };
 /* End PBXBuildFile section */
 
@@ -377,7 +377,6 @@
 		27BBAE54201ACA450046F6F3 /* ProjectDetailViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProjectDetailViewModel.swift; sourceTree = "<group>"; };
 		27BF74571FB97CE7002E75FD /* BindingExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BindingExtensions.swift; sourceTree = "<group>"; };
 		27BF745A1FB97CF1002E75FD /* UIBundle+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIBundle+Extensions.swift"; sourceTree = "<group>"; };
-		27BF745D1FB98419002E75FD /* UIBarButtonItem+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "UIBarButtonItem+Extensions.swift"; path = "../../../../../../Swift_-Equipment/Swift_Equipment/Swift_Equipment/Classes/Tools/Extensions/UIBarButtonItem+Extensions.swift"; sourceTree = "<group>"; };
 		27BF74661FB98EF5002E75FD /* TOProjectListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TOProjectListViewController.swift; sourceTree = "<group>"; };
 		27CD382C1FE0B238005116A1 /* TODetailNormalCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TODetailNormalCell.swift; sourceTree = "<group>"; };
 		27CD382D1FE0B238005116A1 /* TODetailNormalCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TODetailNormalCell.xib; sourceTree = "<group>"; };
@@ -416,6 +415,7 @@
 		48A04FAFCB7CEC47B0F2A57E /* Pods-TheOne.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TheOne.release.xcconfig"; path = "Pods/Target Support Files/Pods-TheOne/Pods-TheOne.release.xcconfig"; sourceTree = "<group>"; };
 		4D786D9748D64340D863CA14 /* Pods_TheOne.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TheOne.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		AD3728FF3E22F91C3F55788D /* Pods-TheOne.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TheOne.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TheOne/Pods-TheOne.debug.xcconfig"; sourceTree = "<group>"; };
+		D64B77B6204BA8F600F89750 /* UIBarButtonItem+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIBarButtonItem+Extensions.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -1045,10 +1045,10 @@
 		27BF74561FB97CE7002E75FD /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
+				D64B77B6204BA8F600F89750 /* UIBarButtonItem+Extensions.swift */,
 				27155568202871D900BE30E5 /* UIImage+Extensions.swift */,
 				27155569202871DB00BE30E5 /* UIImageView+WebImage.swift */,
 				271C7C691FD9481400ADDAF6 /* EXT+UIImage.swift */,
-				27BF745D1FB98419002E75FD /* UIBarButtonItem+Extensions.swift */,
 				27BF745A1FB97CF1002E75FD /* UIBundle+Extensions.swift */,
 				27BF74571FB97CE7002E75FD /* BindingExtensions.swift */,
 				274D01DB1FC8164C00C2279D /* NSObject+Extensions.swift */,
@@ -1496,6 +1496,7 @@
 				273F61461FBA94CF00EE8ABA /* ProjectListViewModel.swift in Sources */,
 				2787E61F1FE3A58900D0871F /* TOAddTaskBtn.swift in Sources */,
 				278BA8771FA8763900EC3860 /* TOCommon.swift in Sources */,
+				D64B77B7204BA8F600F89750 /* UIBarButtonItem+Extensions.swift in Sources */,
 				2785F0A51FBB245400702C95 /* TOProjectDetailViewController.swift in Sources */,
 				27152F5A2003631C00D49F42 /* TOUserSettingViewController.swift in Sources */,
 				27FE62281FCE908E00F8D8A1 /* UIColor+CustomColors.m in Sources */,
@@ -1574,7 +1575,6 @@
 				27D393362012F7CB00D036EF /* TOResetPasswordViewController.swift in Sources */,
 				279260E92041076B0069BFE9 /* TOImportFileController.swift in Sources */,
 				27BF745C1FB97CF2002E75FD /* UIBundle+Extensions.swift in Sources */,
-				27BF745E1FB98419002E75FD /* UIBarButtonItem+Extensions.swift in Sources */,
 				27D490402003235800385B32 /* TOUserInfoCell.swift in Sources */,
 				279D42B320401DD5003E08F6 /* TODownloadViewController.swift in Sources */,
 				27FCF8AE203ECC9E006BD58A /* UserSettingModel.swift in Sources */,

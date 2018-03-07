@@ -25,7 +25,9 @@ class TOTaskCalendarView: UIView {
         
         v.targetVC = VC
         
+        //设置UI界面
         v.initUI()
+        
         v.setAnimation()
         
         return v
@@ -50,10 +52,12 @@ class TOTaskCalendarView: UIView {
         frame = (targetVC?.view.bounds)!
     }
     
+    //移除视图
     @objc fileprivate func closeView() {
         removeFromSuperview()
     }
     
+    //设置出现时的动画
     fileprivate func setAnimation() {
         
         let sprintAnimation = POPSpringAnimation(propertyNamed: kPOPViewScaleXY)
@@ -65,6 +69,7 @@ class TOTaskCalendarView: UIView {
     }
 }
 
+// MARK: - UITableViewDelegate UITableViewDataSource
 extension TOTaskCalendarView: UITableViewDelegate, UITableViewDataSource {
     
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
