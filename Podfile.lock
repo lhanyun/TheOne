@@ -1,13 +1,6 @@
 PODS:
   - Alamofire (4.5.1)
   - ARCGPathFromString (1.0.0)
-  - AsyncDisplayKit (2.2.1):
-    - AsyncDisplayKit/PINRemoteImage (= 2.2.1)
-  - AsyncDisplayKit/Core (2.2.1)
-  - AsyncDisplayKit/PINRemoteImage (2.2.1):
-    - AsyncDisplayKit/Core
-    - PINRemoteImage/iOS (= 3.0.0-beta.8)
-    - PINRemoteImage/PINCache
   - ChameleonFramework/Default (2.1.0)
   - ChameleonFramework/Swift (2.1.0):
     - ChameleonFramework/Default
@@ -78,27 +71,13 @@ PODS:
   - MWPhotoBrowser (2.1.2):
     - DACircularProgress (~> 2.3)
     - MBProgressHUD (~> 0.9)
-    - SDWebImage (!= 3.7.2, ~> 3.7)
-  - NSObject+Rx (4.2.0):
+    - "SDWebImage (!= 3.7.2, ~> 3.7)"
+  - "NSObject+Rx (4.2.0)":
     - RxSwift (~> 4.0)
   - ObjcExceptionBridging (1.0.1):
     - ObjcExceptionBridging/ObjcExceptionBridging (= 1.0.1)
   - ObjcExceptionBridging/ObjcExceptionBridging (1.0.1)
   - ObjectMapper (3.0.0)
-  - PINCache (3.0.1-beta.4):
-    - PINCache/Arc-exception-safe (= 3.0.1-beta.4)
-    - PINCache/Core (= 3.0.1-beta.4)
-  - PINCache/Arc-exception-safe (3.0.1-beta.4):
-    - PINCache/Core
-  - PINCache/Core (3.0.1-beta.4):
-    - PINOperation (= 1.0.3)
-  - PINOperation (1.0.3)
-  - PINRemoteImage/Core (3.0.0-beta.8)
-  - PINRemoteImage/iOS (3.0.0-beta.8):
-    - PINRemoteImage/Core
-  - PINRemoteImage/PINCache (3.0.0-beta.8):
-    - PINCache (= 3.0.1-beta.4)
-    - PINRemoteImage/Core
   - pop (1.0.10)
   - Reachability (3.2)
   - Result (3.2.4)
@@ -130,7 +109,6 @@ PODS:
 
 DEPENDENCIES:
   - ARCGPathFromString
-  - AsyncDisplayKit
   - ChameleonFramework/Swift (from `https://github.com/ViccAlexander/Chameleon.git`)
   - Charts
   - DZNEmptyDataSet
@@ -148,7 +126,7 @@ DEPENDENCIES:
   - LTMorphingLabel
   - Moya-ObjectMapper/RxSwift (from `https://github.com/ivanbruel/Moya-ObjectMapper`, tag `2.5`)
   - Moya/RxSwift
-  - NSObject+Rx
+  - "NSObject+Rx"
   - ObjectMapper
   - pop
   - Reusable
@@ -161,6 +139,45 @@ DEPENDENCIES:
   - XCGLogger
   - ZLPhotoBrowser (from `https://github.com/longitachi/ZLPhotoBrowser`, tag `2.6.4`)
 
+SPEC REPOS:
+  https://github.com/CocoaPods/Specs.git:
+    - Alamofire
+    - ARCGPathFromString
+    - Charts
+    - DACircularProgress
+    - Differentiator
+    - DZNEmptyDataSet
+    - FileKit
+    - FMDB
+    - FontAwesomeKit
+    - FreeStreamer
+    - FSCalendar
+    - GCDWebServer
+    - Hero
+    - Hyphenate
+    - IQKeyboardManagerSwift
+    - LTMorphingLabel
+    - MBProgressHUD
+    - MJRefresh
+    - Moya
+    - MWPhotoBrowser
+    - "NSObject+Rx"
+    - ObjcExceptionBridging
+    - ObjectMapper
+    - pop
+    - Reachability
+    - Result
+    - Reusable
+    - RxCocoa
+    - RxDataSources
+    - RxSwift
+    - SDWebImage
+    - SnapKit
+    - SwiftyJSON
+    - TextFieldEffects
+    - WCLShineButton
+    - XCGLogger
+
 EXTERNAL SOURCES:
   ChameleonFramework:
     :git: https://github.com/ViccAlexander/Chameleon.git
@@ -169,7 +186,7 @@ EXTERNAL SOURCES:
     :tag: 3.3.5
   Moya-ObjectMapper:
     :git: https://github.com/ivanbruel/Moya-ObjectMapper
-    :tag: 2.5
+    :tag: '2.5'
   ZLPhotoBrowser:
     :git: https://github.com/longitachi/ZLPhotoBrowser
     :tag: 2.6.4
@@ -183,7 +200,7 @@ CHECKOUT OPTIONS:
     :tag: 3.3.5
   Moya-ObjectMapper:
     :git: https://github.com/ivanbruel/Moya-ObjectMapper
-    :tag: 2.5
+    :tag: '2.5'
   ZLPhotoBrowser:
     :git: https://github.com/longitachi/ZLPhotoBrowser
     :tag: 2.6.4
@@ -191,7 +208,6 @@ CHECKOUT OPTIONS:
 SPEC CHECKSUMS:
   Alamofire: 2d95912bf4c34f164fdfc335872e8c312acaea4a
   ARCGPathFromString: a003edc0ea437169ac276234630fc1dec3047e30
-  AsyncDisplayKit: 2234dd8d8770a5ed72936b3f8394bd5a807765f6
   ChameleonFramework: d21a3cc247abfe5e37609a283a8238b03575cf64
   Charts: 0705898046257443f0afbbc3179f4b67507b6e48
   DACircularProgress: 4dd437c0fc3da5161cb289e07ac449493d41db71
@@ -213,12 +229,9 @@ SPEC CHECKSUMS:
   Moya: adb58b0f4e58430db43cc6e2f6ebab1836501186
   Moya-ObjectMapper: cdc0e4a6d245cfe5a4c81708240a93fc3cf8a5f9
   MWPhotoBrowser: 5836d7aa041dc05a13de380c246826578adc5ea5
-  NSObject+Rx: cbbc05e3cb3ad446cdbced3e00e39c9efaf02925
+  "NSObject+Rx": cbbc05e3cb3ad446cdbced3e00e39c9efaf02925
   ObjcExceptionBridging: c30e00eb3700467e695faeea30e26e18bd445001
   ObjectMapper: 92230db59bf8f341a5c3a3cf0b9fbdde3cf0d87f
-  PINCache: a89c8f609232afac77128557bd12c861844423d7
-  PINOperation: ac23db44796d4a564ecf9b5ea7163510f579b71d
-  PINRemoteImage: c4f9f16932840c597f32e69dd288e10e111a1929
   pop: 82ca6b068ce9278fd350fd9dd09482a0ce9492e6
   Reachability: 33e18b67625424e47b6cde6d202dce689ad7af96
   Result: d2d07204ce72856f1fd9130bbe42c35a7b0fea10
@@ -234,6 +247,6 @@ SPEC CHECKSUMS:
   XCGLogger: b4ca980580108cfeaf221afe158f5d89c1be22e0
   ZLPhotoBrowser: 2125e7b7ea328c959a5ead1204c83b3bb0f0bf5a
 
-PODFILE CHECKSUM: 0f6dc7ae99c49ca85f4a2e77b91bdb223559d7fa
+PODFILE CHECKSUM: 912b54be02c9edadb4ae30fde4519a021818dc73
 
-COCOAPODS: 1.3.1
+COCOAPODS: 1.5.0

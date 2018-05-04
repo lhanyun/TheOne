@@ -33,7 +33,7 @@ pod 'LTMorphingLabel'
 pod 'Hero'
 pod 'WCLShineButton'
 pod 'pop'
-pod 'AsyncDisplayKit'
+
 pod 'ARCGPathFromString'
 pod 'FMDB'
 #pod 'Kingfisher'
